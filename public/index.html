@@ -348,7 +348,7 @@
     </svg>
   </button>
 
-  <button class="phone-header-btn" data-phone="" aria-label="Call">
+  <button class="phone-header-btn" data-phone="0508786466" aria-label="Call">
     <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
       <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
     </svg>
@@ -779,7 +779,7 @@
         const phoneLinks = document.querySelectorAll('a[href^="tel:"]');
         const phoneNumber = phoneLinks.length > 0 
           ? phoneLinks[0].getAttribute('href').replace('tel:', '')
-          : '[business_phone]';
+          : '0508786466';
         
         window.location.href = 'tel:' + phoneNumber;
         console.log('[Navbar] Phone button clicked');
@@ -839,8 +839,8 @@
   <div class="index-hero-content-wrap">
     <article class="index-hero-card">
       <p><span class="index-hero-eyebrow">Ayalot</span>
-      </p><h1 class="index-hero-h1" style="">פשוטה.<br>מדויקת.<br><em>את.</em></h1>
-      <h3 class="index-hero-subtitle" style="">תכשיטים שנועדו להזכיר לך את מה שחשוב.<br></h3>
+      </p><h1 class="index-hero-h1" >פשוטה.<br>מדויקת.<br><em>את.</em></h1>
+      <h3 class="index-hero-subtitle" >תכשיטים שנועדו להזכיר לך את מה שחשוב.<br></h3>
       <div class="index-hero-ctas">
         <a href="#shop" class="index-hero-btn-primary" data-element-type="button" data-element-id="btn-1776110382025-nsdjfjqm1" data-native-element="true">בואי לקבל השראה</a>
         <a href="#story" class="index-hero-btn-secondary" data-element-type="button" data-element-id="btn-1776110382025-gx9sd80eh" data-native-element="true">הסיפור שלנו</a>
@@ -897,7 +897,7 @@
     <div class="index-story-image-col">
       <div class="index-story-backplate"></div>
       <div class="index-story-image-frame">
-        <img data-placeholder="index-story-image-1" data-context="Intimate editorial portrait of a woman wearing minimalist 18K gold-plated fine jewelry — a delicate bracelet and simple necklace. Warm sand and cream tones, soft natural light, printed-photo quality, close and personal framing, tactile and reflective mood, no commercial feel. The woman is partially visible, focus on her wrist and collarbone area, warm skin tones, blurred background." width="520" height="680" src="/assets/site-index-story-image-1.webp" alt="אישה עונדת תכשיטי Ayalot מינימליסטיים — צמיד ושרשרת זהב עדינים" data-element-type="image" data-element-id="img-1776109809939-jxwfzu95u" style="">
+        <img data-placeholder="index-story-image-1" data-context="Intimate editorial portrait of a woman wearing minimalist 18K gold-plated fine jewelry — a delicate bracelet and simple necklace. Warm sand and cream tones, soft natural light, printed-photo quality, close and personal framing, tactile and reflective mood, no commercial feel. The woman is partially visible, focus on her wrist and collarbone area, warm skin tones, blurred background." width="520" height="680" src="/assets/site-index-story-image-1.webp" alt="אישה עונדת תכשיטי Ayalot מינימליסטיים — צמיד ושרשרת זהב עדינים" data-element-type="image" data-element-id="img-1776109809939-jxwfzu95u" >
       </div>
     </div>
   </div>
@@ -1106,9 +1106,9 @@
         </a>
         <p class="footer-tagline">תכשיטים שמספרים סיפור.<br>עיצוב עדין מתוך אהבה.</p>
         <div class="footer-social">
-          <a href="[facebook_handle]" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-          <a href="[instagram_handle]" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-          <a href="[whatsapp_handle]" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+          <a href="#" aria-label="Facebook" style="display:none !important;"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" aria-label="Instagram" style="display:none !important;"><i class="fab fa-instagram"></i></a>
+          <a href="#" aria-label="WhatsApp" style="display:none !important;"><i class="fab fa-whatsapp"></i></a>
         </div>
       </div>
 
@@ -1130,14 +1130,14 @@
         <ul class="footer-contact">
           <li>
             <span class="contact-icon"><i class="fas fa-envelope"></i></span>
-            <span class="contact-text"><a href="mailto:[business_email]">[business_email]</a></span>
+            <span class="contact-text"><a href="mailto:beerinat@gmail.com">beerinat@gmail.com</a></span>
           </li>
           <li>
             <span class="contact-icon"><i class="fas fa-phone"></i></span>
-            <span class="contact-text"><a href="tel:[business_phone]">[business_phone]</a></span>
+            <span class="contact-text"><a href="tel:0508786466">0508786466</a></span>
           </li>
           <li><a href="/"><span class="contact-icon"><i class="fas fa-map-marker-alt"></i></span>
-            <span class="contact-text">[business_address]</span></a></li>
+            <span class="contact-text">השדות, רמות מנשה, ישראל, 1924500, ישראל</span></a></li>
         </ul>
       </div>
 
